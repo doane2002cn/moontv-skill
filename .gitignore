@@ -1,0 +1,38 @@
+# Claude Code personal settings
+.claude/
+
+# Generated output files
+output/
+
+# Historical versions
+versions/
+
+# Design docs (contain personal URLs)
+docs/
+
+# Python implementation (separate project)
+moontv-openclaw/
+
+# Environment files (except example)
+*.env
+!config/example.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
