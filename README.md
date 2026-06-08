@@ -343,11 +343,13 @@ CronCreate:
 
 ```
 moontv-skill/
-├── SKILL.md                 # Claude Code 技能定义
+├── SKILL.md                 # Claude Code 技能定义（核心）
 ├── README.md                # 项目说明文档
-├── config/
-│   └── watchlist.json       # 追剧配置文件
-└── .gitignore               # Git 忽略规则
+├── LICENSE                  # MIT 许可证
+├── .gitignore               # Git 忽略规则
+└── config/
+    ├── watchlist.json       # 追剧配置文件
+    └── example.env          # 环境变量示例
 ```
 
 ---
@@ -380,6 +382,17 @@ moontv-skill/
 ## 📄 许可证 | License
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+
+---
+
+## 📝 更新日志 | Changelog
+
+| 版本 | 日期 | 变更 |
+|------|------|------|
+| v1.0 | 2026-05-31 | 初始版本：三分类各 Top 5，双路径评分，双路由链接 |
+| v1.1 | 2026-06-01 | 新增短剧/福利分类（共五类），优化集数提取正则 |
+| v1.2 | 2026-06-01 | 全量聚合：并发抓取所有源站，按 vod_name 去重合并 |
+| v1.3 | 2026-05-31 | 追剧功能：支持 watchlist.json 配置，双路径匹配更新 |
 
 ---
 
