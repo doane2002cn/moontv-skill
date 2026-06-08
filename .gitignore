@@ -13,6 +13,12 @@ docs/
 # Python implementation (separate project)
 moontv-openclaw/
 
+# MoonTV main project (separate repo)
+MoonTV/
+
+# Test link files
+test_links*.md
+
 # Environment files (except example)
 *.env
 !config/example.env
